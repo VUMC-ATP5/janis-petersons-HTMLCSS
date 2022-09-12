@@ -1,2 +1,2 @@
-#Pirmais GIT repozitatorijs
+# Pirmais GIT repozitatorijs
 Šo papildināšu vēlāk
