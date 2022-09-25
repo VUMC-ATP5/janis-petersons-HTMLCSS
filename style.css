@@ -1,0 +1,35 @@
+body {
+    background-color: gold;
+}
+p {
+    border-style: dashed;
+    color: hotpink;
+}
+.dzīvnieks {
+    border-style: dashed;
+    border-color: red;
+}
+.redtext {
+    color: crimson;
+}
+button#specialButton1 {
+    color: red;
+}
+div.full{ 
+    min-height: 100px;
+    background-color: lime;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+}
+div.kreisais{ 
+    min-height: 50px;
+    background-color:chocolate;
+}
+div.labais{ 
+    min-height: 50px;
+    background-color: rgb(255, 0, 0);
+}
+div.pavidu{ 
+    min-height: 50px;
+    background-color: rgb(191, 0, 255);
+}
