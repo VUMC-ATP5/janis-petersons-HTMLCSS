@@ -1,35 +1,67 @@
 body {
-    background-color: gold;
+    background-color:white;
 }
-p {
-    border-style: dashed;
-    color: hotpink;
+/* HTML failā ir atribūti kurus talāk šeit izmanotju lai veiktu papildus opcijas ar tekstu,krāsu utt */
+.Nos{
+    color:black;
+    text-align: center ;
+    font-size: 30px;
 }
-.dzīvnieks {
-    border-style: dashed;
-    border-color: red;
+.attelanovieotjums{
+    text-align: right;
 }
-.redtext {
-    color: crimson;
+.TekstsZils{
+    color:blue;
 }
-button#specialButton1 {
-    color: red;
+.TekstsMelns{
+    color:black;
 }
-div.full{ 
+.SarkansTeksts{
+    color:red;
+    text-decoration: solid;
+}
+div.Sadalījums{ 
     min-height: 100px;
-    background-color: lime;
     display: grid;
-    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 4fr;
 }
-div.kreisais{ 
+div.Palabi{ 
     min-height: 50px;
-    background-color:chocolate;
-}
-div.labais{ 
+    background-color:lightblue;
+    text-align: left;
+    border-bottom-style: solid;
+    border-color: blue;
+    text-indent: 30px;
+} 
+div.PaKreisi{ 
     min-height: 50px;
-    background-color: rgb(255, 0, 0);
+    background-color:beige;
+    text-align:center;
 }
-div.pavidu{ 
+div.PaKreisi1{ 
+        min-height: 10px;
+        background-color:beige;
+        text-align: center;
+    } 
+div.PaLabi1{ 
     min-height: 50px;
-    background-color: rgb(191, 0, 255);
-}
+    background-color:lightblue;
+    text-align: left;
+    border-bottom-style: solid;
+    border-color: blue;
+    text-indent: 30px;
+} 
+div.PaKreisi2{ 
+    min-height: 50px;
+    background-color:beige;
+    text-align: center;
+} 
+div.PaLabi2{ 
+    min-height: 50px;
+    background-color:lightblue;
+    text-align: left;
+    border-bottom-style: solid;
+    border-color: blue;
+    text-indent: 30px;
+} 
